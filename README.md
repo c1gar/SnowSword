@@ -8,7 +8,7 @@ Web版中国菜刀（Webshell管理工具）
 
 # Docker启动
 ```bash
-git clone git@github.com:l3yx/SnowSword.git
+git clone git@github.com:c1gar/SnowSword.git
 cd SnowSword/Docker
 docker-compose build
 docker-compose up -d
