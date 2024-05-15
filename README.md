@@ -13,6 +13,11 @@ cd SnowSword/Docker
 docker-compose build
 docker-compose up -d
 ```
+或者
+```
+docker pull cigardocker/snowsword:1.0
+docker run -p 8081:8081 -itd cigardocker/snowsword:1.0
+```
 
 访问：http://ip:8081
 
