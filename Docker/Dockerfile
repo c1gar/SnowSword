@@ -1,7 +1,4 @@
-# amd64
-# FROM ascdc/jdk8:latest 
-# arm64
-FROM carlye/jdk8-arm64:latest
+FROM openjdk:8
 
 LABEL maintainer="cigar"
 WORKDIR /root
